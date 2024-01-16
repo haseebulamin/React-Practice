@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react'
 import './UseReducer.scss'
 
-const initialState = {count: 0}
+const initialState = {count: 0};
 
     const reducer = (state,action)=>{
         console.log(state,action)
