@@ -4,11 +4,13 @@ const FirstName = createContext()
 const LastName = createContext()
 export default function A(props) {
   return (
-    <FirstName.Provider value="hello, i am haseeb">
-    <LastName.Provider value="ul Amin">
+    <>
+    <FirstName.Provider value="1st context">
+    <LastName.Provider value="2nd context">
     <B/>
     </LastName.Provider>
     </FirstName.Provider>
+    </>
    
   )
 }

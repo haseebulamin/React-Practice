@@ -5,16 +5,16 @@ import './App.css';
 // import Fatch from './components/Api_Intergration/Fatch';
 // import CustomHook from './components/CustomHook/CustomHook';
 // import UseReducer from './components/UseReducer/UseReducer';
-// import A from './components/UseContext/A';
-import UseEffect from './components/UseEffect/UseEffect';
+import A from './components/UseContext/A';
+// import UseEffect from './components/UseEffect/UseEffect';
 // import UseState from './components/UseState/UseState';
 
 function App() {
   return (
    <>
    {/* <UseState/> */}
-   <UseEffect/>
-   {/* <A/>  */}
+   {/* <UseEffect/> */}
+   <A/>  
    {/* <UseReducer/> */}
    {/* <CustomHook/> */}
    {/* <Fatch/> */}
