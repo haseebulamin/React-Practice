@@ -1,0 +1,97 @@
+img{
+    top: 40px;
+    left: 7.5%;
+  }
+  .touch{
+    right: 145px;
+    top: 60px;
+    .get{
+      font-size: 18px;
+      top: 3px;
+      &::after{
+        content: "";
+        display: block;
+        height: 3px;
+        background-color: black;
+        border-radius: 25px;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.5s ease;
+      }
+      &:hover:after{
+        transform: scaleX(1);
+      }
+    }
+  }
+  #active:checked ~ .wrapper{
+      clip-path: circle(75%);
+      // background-color: rgb(196, 194, 191);
+  }
+  #active:checked ~ .menu-btn{
+      background-color: white;
+  }
+  #active:checked ~ .menu-btn i::before{
+      content: "\f00d";
+  }
+  .menu-btn{
+      right: 35px;
+      top: 40px;
+      line-height: 70px;
+      height: 70px;
+      width: 70px;
+      background-color: rgb(196, 194, 191);
+      border-radius: 50px;
+      transition: all 1s ease;
+  }
+  .wrapper {
+      clip-path: circle(34px at calc(100% - 70px) 76px);
+      transition: all 0.5s ease-in-out;
+    .menu {
+      top: 46%;
+      transform: translate(-50%, -50%);
+      .item:hover {
+        color: white !important;
+        transition: all  0.5s ease;
+      }
+      .item{
+       font-size: 7rem;
+       line-height: 115px !important;
+      &::after {
+        content: "";
+        display: block;
+        height: 6px;
+        background-color: black;
+        border-radius: 10px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 1s ease;
+      }
+      &:hover:after {
+        transform: scaleX(1);
+      }
+    }
+  }
+  .nav-foot{
+     top: 84%;
+     .priv{
+      top: 50%;
+     }
+     .line{
+      &::after{
+        content: "";
+        display: block;
+        height: 2px;
+        background-color: black;
+        border-radius: 25px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease;
+      }
+      &:hover:after{
+        transform: scaleX(1);
+      }
+    }
+      
+     
+  }
+  }

@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+// import MagicPhoto from './components/MagicPhoto/MagicPhoto';
+import Menu from './components/Menu/Menu';
+// import Axios from './components/Api_Intergration/Axios';
+// import Fatch from './components/Api_Intergration/Fatch';
+// import CustomHook from './components/CustomHook/CustomHook';
+// import UseReducer from './components/UseReducer/UseReducer';
+// import A from './components/UseContext/A';
+// import UseEffect from './components/UseEffect/UseEffect';
+// import UseState from './components/UseState/UseState';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   {/* <UseState/> */}
+   {/* <UseEffect/> */}
+   {/* <A/>  */}
+   {/* <UseReducer/> */}
+   {/* <CustomHook/> */}
+   {/* <Fatch/> */}
+   {/* <Axios/> */}
+   {/* <MagicPhoto/> */}
+   <Menu/>
+   </>
   );
 }
 
