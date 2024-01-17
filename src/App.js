@@ -1,5 +1,6 @@
 import './App.css';
-import UseMemo from './components/UseMemo/UseMemo';
+import UseCallback from './components/UseCallback/UseCallback';
+// import UseMemo from './components/UseMemo/UseMemo';
 // import MagicPhoto from './components/MagicPhoto/MagicPhoto';
 // import Menu from './components/Menu/Menu';
 // import Axios from './components/Api_Intergration/Axios';
@@ -17,7 +18,8 @@ function App() {
    {/* <UseEffect/> */}
    {/* <A/>   */}
    {/* <UseReducer/> */}
-   <UseMemo/>
+   {/* <UseMemo/> */}
+   <UseCallback/>
    {/* <CustomHook/> */}
    {/* <Fatch/> */}
    {/* <Axios/> */}
