@@ -1,6 +1,6 @@
 import './App.css';
 // import UseCallback from './components/UseCallback/UseCallback';
-import UseRef from './components/UseRef/UseRef';
+// import UseRef from './components/UseRef/UseRef';
 // import UseMemo from './components/UseMemo/UseMemo';
 // import MagicPhoto from './components/MagicPhoto/MagicPhoto';
 // import Menu from './components/Menu/Menu';
@@ -11,6 +11,7 @@ import UseRef from './components/UseRef/UseRef';
 // import A from './components/UseContext/A';
 // import UseEffect from './components/UseEffect/UseEffect';
 // import UseState from './components/UseState/UseState';
+import UseImperativeParent from './components/useImperativeHandle/useImperativeParent';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
    {/* <UseReducer/> */}
    {/* <UseMemo/> */}
    {/* <UseCallback/> */}
-   <UseRef/>
+   {/* <UseRef/> */}
+   <UseImperativeParent/>
    {/* <CustomHook/> */}
    {/* <Fatch/> */}
    {/* <Axios/> */}
