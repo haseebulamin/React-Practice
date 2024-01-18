@@ -1,4 +1,5 @@
 import './App.css';
+import UselayoutEffect from './components/UselayoutEffect/UselayoutEffect';
 // import UseCallback from './components/UseCallback/UseCallback';
 // import UseRef from './components/UseRef/UseRef';
 // import UseMemo from './components/UseMemo/UseMemo';
@@ -11,7 +12,7 @@ import './App.css';
 // import A from './components/UseContext/A';
 // import UseEffect from './components/UseEffect/UseEffect';
 // import UseState from './components/UseState/UseState';
-import UseImperativeParent from './components/useImperativeHandle/useImperativeParent';
+// import UseImperativeParent from './components/useImperativeHandle/useImperativeParent';
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
    {/* <UseMemo/> */}
    {/* <UseCallback/> */}
    {/* <UseRef/> */}
-   <UseImperativeParent/>
+   {/* <UseImperativeParent/> */}
+   <UselayoutEffect/>
+
    {/* <CustomHook/> */}
    {/* <Fatch/> */}
    {/* <Axios/> */}
