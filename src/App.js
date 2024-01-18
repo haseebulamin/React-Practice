@@ -1,5 +1,5 @@
 import './App.css';
-// import UseDebugValue from './components/useDebugValue/UseDebugValue';
+import UseDebugValue from './components/useDebugValue/UseDebugValue';
 // import UselayoutEffect from './components/UselayoutEffect/UselayoutEffect';
 // import UseCallback from './components/UseCallback/UseCallback';
 // import UseRef from './components/UseRef/UseRef';
@@ -13,7 +13,7 @@ import './App.css';
 // import A from './components/UseContext/A';
 // import UseEffect from './components/UseEffect/UseEffect';
 // import UseState from './components/UseState/UseState';
-import UseImperativeParent from './components/useImperativeHandle/UseImperativeParent';
+// import UseImperativeParent from './components/useImperativeHandle/UseImperativeParent';
 
 function App() {
   return (
@@ -25,9 +25,9 @@ function App() {
    {/* <UseMemo/> */}
    {/* <UseCallback/> */}
    {/* <UseRef/> */}
-   <UseImperativeParent/>
+   {/* <UseImperativeParent/> */}
    {/* <UselayoutEffect/> */}
-   {/* <UseDebugValue/> */}
+   <UseDebugValue/>
    {/* <CustomHook/> */}
    {/* <Fatch/> */}
    {/* <Axios/> */}
