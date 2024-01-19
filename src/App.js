@@ -1,5 +1,5 @@
 import './App.css';
-import UseLocation from './components/ReactRouterHooks/UseLocation';
+import UseLocation from './components/useLocation/UseLocation';
 // import UseDebugValue from './components/useDebugValue/UseDebugValue';
 // import UselayoutEffect from './components/UselayoutEffect/UselayoutEffect';
 // import UseCallback from './components/UseCallback/UseCallback';
