@@ -1,5 +1,6 @@
 import './App.css';
-import UseDebugValue from './components/useDebugValue/UseDebugValue';
+import UseLocation from './components/ReactRouterHooks/UseLocation';
+// import UseDebugValue from './components/useDebugValue/UseDebugValue';
 // import UselayoutEffect from './components/UselayoutEffect/UselayoutEffect';
 // import UseCallback from './components/UseCallback/UseCallback';
 // import UseRef from './components/UseRef/UseRef';
@@ -27,9 +28,10 @@ function App() {
    {/* <UseRef/> */}
    {/* <UseImperativeParent/> */}
    {/* <UselayoutEffect/> */}
-   <UseDebugValue/>
+   {/* <UseDebugValue/> */}
+   <UseLocation/>
    {/* <CustomHook/> */}
-   {/* <Fatch/> */}
+   {/* <Fatch/> */} 
    {/* <Axios/> */}
    {/* <MagicPhoto/> */}
    {/* <Menu/> */}
