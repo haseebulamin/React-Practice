@@ -1,5 +1,5 @@
 import './App.css';
-import UseLocation from './components/useLocation/UseLocation';
+// import UseLocation from './components/useLocation/UseLocation';
 // import UseDebugValue from './components/useDebugValue/UseDebugValue';
 // import UselayoutEffect from './components/UselayoutEffect/UselayoutEffect';
 // import UseCallback from './components/UseCallback/UseCallback';
@@ -15,6 +15,7 @@ import UseLocation from './components/useLocation/UseLocation';
 // import UseEffect from './components/UseEffect/UseEffect';
 // import UseState from './components/UseState/UseState';
 // import UseImperativeParent from './components/useImperativeHandle/UseImperativeParent';
+import Historyhome from './components/UseHistory/Historyhome';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
    {/* <UseImperativeParent/> */}
    {/* <UselayoutEffect/> */}
    {/* <UseDebugValue/> */}
-   <UseLocation/>
+   {/* <UseLocation/> */}
+   <Historyhome/>
    {/* <CustomHook/> */}
    {/* <Fatch/> */} 
    {/* <Axios/> */}
